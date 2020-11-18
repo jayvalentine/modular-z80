@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 32KRAM_Higher_Rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/32KRAM_Higher_Rev1-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,259 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ModularZ80:Bus J1
+U 1 1 5ECFB787
+P 1800 3450
+F 0 "J1" H 1888 4875 50  0000 C CNN
+F 1 "Bus" H 1888 4784 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x36_P2.54mm_Horizontal" H 1888 4783 50  0001 C CNN
+F 3 "" H 1800 3450 50  0001 C CNN
+	1    1800 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L AT28C64B-15PU:AT28C64B-15PU U2
+U 1 1 5ECFD6B0
+P 4350 4450
+F 0 "U2" H 4350 5620 50  0000 C CNN
+F 1 "AT28C64B-15PU" H 4350 5529 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 4350 4450 50  0001 L BNN
+F 3 "IPC 7351B" H 4350 4450 50  0001 L BNN
+F 4 "B" H 4350 4450 50  0001 L BNN "Field4"
+F 5 "4.826 mm" H 4350 4450 50  0001 L BNN "Field5"
+F 6 "Microchip Technology" H 4350 4450 50  0001 L BNN "Field6"
+	1    4350 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4050 3650 4050
+Wire Wire Line
+	1900 4150 3650 4150
+Wire Wire Line
+	1900 4250 3650 4250
+Wire Wire Line
+	1900 4350 3650 4350
+Wire Wire Line
+	1900 4450 3650 4450
+Wire Wire Line
+	1900 4550 3650 4550
+Wire Wire Line
+	1900 4650 3650 4650
+Wire Wire Line
+	1900 4750 3650 4750
+Wire Wire Line
+	1900 4850 3650 4850
+Wire Wire Line
+	1900 4950 3650 4950
+Wire Wire Line
+	1900 5050 3650 5050
+Wire Wire Line
+	1900 5150 3650 5150
+Wire Wire Line
+	1900 5250 3650 5250
+$Comp
+L 74xx:74LS32 U1
+U 1 1 5ED048E2
+P 3100 5650
+F 0 "U1" H 3100 5975 50  0000 C CNN
+F 1 "74LS32" H 3100 5884 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3100 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3100 5650 50  0001 C CNN
+	1    3100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U1
+U 2 1 5ED0BFEA
+P 2400 5750
+F 0 "U1" H 2400 6075 50  0000 C CNN
+F 1 "74LS32" H 2400 5984 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2400 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2400 5750 50  0001 C CNN
+	2    2400 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5350 2650 5350
+Wire Wire Line
+	2650 5350 2650 5550
+Wire Wire Line
+	2650 5550 2800 5550
+Wire Wire Line
+	1900 5450 2100 5450
+Wire Wire Line
+	2100 5450 2100 5650
+Wire Wire Line
+	1900 5550 2050 5550
+Wire Wire Line
+	2050 5550 2050 5850
+Wire Wire Line
+	2050 5850 2100 5850
+Wire Wire Line
+	1900 5650 2000 5650
+Wire Wire Line
+	2000 5650 2000 5750
+Wire Wire Line
+	2000 5750 1900 5750
+Wire Wire Line
+	3650 3650 3450 3650
+Wire Wire Line
+	3450 3650 3450 5650
+Wire Wire Line
+	3450 5650 3400 5650
+$Comp
+L Device:R R1
+U 1 1 5ED13C5E
+P 3100 2550
+F 0 "R1" V 2893 2550 50  0001 C CNN
+F 1 "10k" V 2985 2550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3030 2550 50  0001 C CNN
+F 3 "~" H 3100 2550 50  0001 C CNN
+	1    3100 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 3850 3650 3850
+Wire Wire Line
+	5200 2250 5200 3550
+Wire Wire Line
+	5200 3550 5050 3550
+Wire Wire Line
+	1900 2350 2650 2350
+Wire Wire Line
+	5250 2350 5250 5350
+Wire Wire Line
+	5250 5350 5050 5350
+$Comp
+L 74xx:74LS32 U1
+U 3 1 5ED195B4
+P 2900 3750
+F 0 "U1" H 2900 4075 50  0000 C CNN
+F 1 "74LS32" H 2900 3984 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2900 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2900 3750 50  0001 C CNN
+	3    2900 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3750 3650 3750
+Wire Wire Line
+	2600 3650 2250 3650
+Wire Wire Line
+	2250 3650 2250 3550
+Wire Wire Line
+	2250 3550 1900 3550
+Wire Wire Line
+	1900 3750 2250 3750
+Wire Wire Line
+	2250 3750 2250 3850
+Wire Wire Line
+	2250 3850 2600 3850
+Wire Wire Line
+	2700 5750 2800 5750
+NoConn ~ 1900 2450
+NoConn ~ 1900 2550
+NoConn ~ 1900 2650
+NoConn ~ 1900 3650
+NoConn ~ 1900 3850
+NoConn ~ 1900 3950
+Wire Wire Line
+	5050 4050 5300 4050
+Wire Wire Line
+	5300 4050 5300 2750
+Wire Wire Line
+	5300 2750 1900 2750
+Wire Wire Line
+	1900 2850 5350 2850
+Wire Wire Line
+	5350 2850 5350 4150
+Wire Wire Line
+	5350 4150 5050 4150
+Wire Wire Line
+	5050 4250 5400 4250
+Wire Wire Line
+	5400 4250 5400 2950
+Wire Wire Line
+	5400 2950 1900 2950
+Wire Wire Line
+	1900 3050 5450 3050
+Wire Wire Line
+	5450 3050 5450 4350
+Wire Wire Line
+	5450 4350 5050 4350
+Wire Wire Line
+	5050 4450 5500 4450
+Wire Wire Line
+	5500 4450 5500 3150
+Wire Wire Line
+	5500 3150 1900 3150
+Wire Wire Line
+	1900 3250 5550 3250
+Wire Wire Line
+	5550 3250 5550 4550
+Wire Wire Line
+	5550 4550 5050 4550
+Wire Wire Line
+	1900 3350 5600 3350
+Wire Wire Line
+	5600 3350 5600 4650
+Wire Wire Line
+	5600 4650 5050 4650
+Wire Wire Line
+	1900 3450 3350 3450
+Wire Wire Line
+	3350 3450 3350 2650
+Wire Wire Line
+	3350 2650 5650 2650
+Wire Wire Line
+	5650 2650 5650 4750
+Wire Wire Line
+	5650 4750 5050 4750
+Wire Wire Line
+	3250 2550 3550 2550
+Wire Wire Line
+	3550 2550 3550 3850
+Wire Wire Line
+	1900 2250 2300 2250
+Wire Wire Line
+	2850 2250 2850 2550
+Wire Wire Line
+	2850 2550 2950 2550
+Connection ~ 2850 2250
+Wire Wire Line
+	2850 2250 5200 2250
+$Comp
+L 74xx:74LS32 U1
+U 5 1 5ED53409
+P 2650 1850
+F 0 "U1" H 2880 1896 50  0000 L CNN
+F 1 "74LS32" H 2880 1805 50  0000 L CNN
+F 2 "" H 2650 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2650 1850 50  0001 C CNN
+	5    2650 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2650 2350
+Wire Wire Line
+	2650 2350 5250 2350
+Wire Wire Line
+	2300 1350 2650 1350
+Wire Wire Line
+	2300 1350 2300 2250
+Connection ~ 2300 2250
+Wire Wire Line
+	2300 2250 2850 2250
+$EndSCHEMATC
