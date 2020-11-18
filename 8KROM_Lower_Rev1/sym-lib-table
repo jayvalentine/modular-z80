@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name ModularZ80)(type Legacy)(uri /home/jay/Documents/Electronics/ModularZ80/ModularZ80.lib)(options "")(descr ""))
+  (lib (name ModularZ80)(type Legacy)(uri ${KIPRJMOD}/../ModularZ80.lib)(options "")(descr ""))
+  (lib (name 8KROM_Lower_Rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/8KROM_Lower_Rev1-rescue.lib)(options "")(descr ""))
 )
