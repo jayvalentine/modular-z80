@@ -29,5 +29,7 @@ fp-info-cache
 *.csv
 
 # Archive (mainly used for JLCPCB gerbers)
+gerbers
+gerbers/**
 *.zip
 
